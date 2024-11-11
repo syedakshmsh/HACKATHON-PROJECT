@@ -1,0 +1,152 @@
+/* Styling form and resume sections */
+/* 
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: white;
+}
+
+form {
+    margin: auto;
+    background-color: rgb(206, 58, 107);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+fieldset {
+    border: 2px solid rgb(185, 73, 92);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(199, 124, 137);
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: rgb(34, 29, 29);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+
+}
+
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid rgb(184, 86, 103);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: rgb(184, 86, 103);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button :hover {
+    color: pink;
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(184, 86, 103);
+    border-radius: 8px;
+    background-color: rgb(228, 242, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#resume-display h2 {
+    color: black;
+} */
+
+body{
+    background-color: palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+form{ 
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+fieldset{
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+
+    
+
+}
+
+label{
+    margin-top: 10px;
+    color: pink
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+legend{
+    font-weight: bold;
+    text-align: left;
+}
+
+input,textarea{
+    margin-top: 4px;
+    padding: 8px;
+    border: 1px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+                                                                     
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid rgb(184, 86, 103);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    cursor: pointer ;
+    
+}
+button:hover{
+    color: black;
+}
+

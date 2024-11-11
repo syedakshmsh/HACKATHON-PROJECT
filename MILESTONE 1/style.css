@@ -1,0 +1,71 @@
+body{
+  font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 150px;
+}
+.Resume-Container{
+  display: flex;
+  background-color: white;
+  width: 80;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 002 px rgba(0.0.0.0.1);
+}
+.left-section{
+  background-color: darksalmon;
+  color: #2c2c2c;
+  padding: 20px;
+  width: 35%;
+  
+  border-right: 5px solid;
+}
+.profile-picture{
+  border: 5px solid;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
+  margin-top: 10%;
+  border-radius: 50%;
+}
+h3{
+  font-size: 47px;
+  padding: 2%;
+  color: black;
+  border-radius: 10px;
+  box-shadow:   15px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+h1{
+  font-size: 24px;
+  margin: 10px;
+  margin-bottom: 30px;
+  text-align: left;
+  border-radius: 10px;
+}  
+
+.line{
+   height: 2px;
+   background-color: black;
+   width: 80%;
+}
+
+button{
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  box-shadow: 0,0 15pxblack;
+  cursor: pointer ;
+  margin-top: 10px;
+  font-size: 18px;
+}
+button:hover{
+  background-color: burlywood;
+  ;
+}
+
+.right-section .aboutme p{
+  justify-content: space-between ;
+
+}
+
